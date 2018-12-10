@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.maximumcommunication.net$ [NC]
+RewriteRule ^/?(.*)$ http://maximumcommunication.net/$1 [R=301,L]
